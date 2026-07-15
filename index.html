@@ -43,7 +43,9 @@
         I build <span class="gradient-text">AI-driven products</span> that scale.
       </h2>
       <p class="hero-description">
-  AI-focused software developer at <strong>Gen Digital</strong> specializing in data engineering, applied machine learning, and AI-driven product development. I build scalable systems using agentic AI, MCP tools, and Azure-based frameworks to improve engineering efficiency. Backed by research experience in deep learning, explainable AI, and analytics automation, I focus on delivering practical, high-impact solutions.
+        Software Developer at <strong>Gen Digital</strong>, working on agentic AI platforms,
+        MCP-driven automation, and large-scale customer feedback intelligence across
+        Norton, Avast, and Avira.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View my work</a>
@@ -119,25 +121,29 @@
         <div class="skill-category">
           <h4>AI / ML</h4>
           <div class="skill-tags">
-            <span>Azure AI</span><span>Azure Cognitive Services</span><span>Vector Search</span>
-            <span>RAG</span><span>Ollama</span><span>MCP Tools</span><span>Cursor ACP &amp; CLI</span>
-            <span>TensorFlow</span><span>Keras</span>
+            <span>Agentic AI workflows</span><span>MCP (Model Context Protocol)</span>
+            <span>Cursor ACP and Cursor CLI</span><span>Claude Coworker and Agent Skills</span>
+            <span>Azure AI</span><span>Azure Cognitive Services</span>
+            <span>Vertex AI and Gemini</span><span>Vector Search</span>
+            <span>AI/ML</span><span>Automated AI testing</span>
+            <span>Customer feedback analysis</span><span>Ollama</span>
           </div>
         </div>
         <div class="skill-category">
           <h4>Languages &amp; Frameworks</h4>
           <div class="skill-tags">
-            <span>Python</span><span>JavaScript</span><span>FastAPI</span>
-            <span>Flask</span><span>Django</span><span>React</span>
-            <span>Node.js</span><span>Angular</span><span>Streamlit</span>
+            <span>Python</span><span>JavaScript</span><span>React and NodeJS</span>
+            <span>Express</span><span>FastAPI</span><span>Flask</span>
+            <span>Django</span>
           </div>
         </div>
         <div class="skill-category">
           <h4>Data &amp; Infrastructure</h4>
           <div class="skill-tags">
             <span>BigQuery</span><span>SQL</span><span>Looker</span>
-            <span>Azure Search Indexes</span><span>Azure Blob Storage</span>
-            <span>Git</span><span>Agile</span>
+            <span>Kubernetes and Docker</span><span>Microsoft 365, Outlook and SharePoint</span>
+            <span>n8n workflow automation</span><span>Data Analytics</span>
+            <span>Git</span><span>Agile project management</span>
           </div>
         </div>
       </div>
@@ -164,6 +170,8 @@
             <li>Built AI automation testing crawlers using <strong>MCP tools</strong> to replace traditional UI testing for the N360 app, plus a universal crawler covering Avast, Avira, and Norton.</li>
             <li>Designed and shipped a <strong>Customer Feedback ChatBot</strong> for Norton Windows &amp; Mac using Cursor ACP and headless frameworks, querying 500,000+ documents from Azure Search Indexes.</li>
             <li>Created a multi-agent <strong>Smart Bot Platform</strong> (FastAPI, Vanilla JS, Ollama, Azure Cognitive Services) enabling org-wide Q&amp;A across product &amp; technical docs.</li>
+            <li>Built and deployed <strong>PMOS dashboard</strong>, an AI-native product manager operations dashboard for the AI Tiger Team, using <strong>React</strong>, <strong>Node.js</strong>, <strong>BigQuery</strong>, and <strong>Vertex AI (Gemini)</strong> to classify multi-source customer feedback across relationship NPS, uninstall, in-app, and onboarding/VPN sources and generate prioritised product-opportunity briefs with KPI cards, segment intelligence, and filterable views by brand, OS, product group, license type, and time period; production-deployed on <strong>Kubernetes</strong> for product leadership.</li>
+            <li>Delivered <strong>Litigation Tracking Automation</strong> for the Legal team using <strong>Claude Coworker</strong> as the primary agentic workflow, configuring a litigation automation skill that searches <strong>Outlook</strong> mailboxes for litigation-related emails, extracts and structures relevant case updates, and presents proposed tracker changes in-conversation for human approve, reject, or edit before automatically appending approved updates to the existing <strong>SharePoint</strong> litigation tracker, reducing manual tracker maintenance while preserving auditable review history.</li>
             <li>Maintained dashboards with scheduled queries supporting consumer migration to newer product versions.</li>
             <li>Mentor interns on AI capstone projects; represent the team at internal Gen-Dev conferences and AI forums.</li>
           </ul>
@@ -249,6 +257,34 @@
 
       <article class="project-card">
         <div class="project-header">
+          <h3>PMOS Dashboard</h3>
+        </div>
+        <p class="project-description">
+          Built an internal product discovery dashboard that turns classified Norton and Avast customer feedback into decision-ready KPI views,
+          cross-source signal analysis, and AI-generated opportunity cards for product managers, supported by weekly BigQuery classification and insights pipelines.
+        </p>
+        <div class="project-tags">
+          <span>Vertex AI</span><span>React</span><span>Node.js</span><span>BigQuery</span>
+          <span>Gemini</span><span>Kubernetes</span><span>Docker</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Litigation Tracker Automation</h3>
+        </div>
+        <p class="project-description">
+          Developed an agentic workflow for Legal that identifies litigation updates from Outlook email, extracts structured matter changes,
+          routes them through in-conversation human review, and writes approved changes to the SharePoint litigation tracker with auditable history.
+        </p>
+        <div class="project-tags">
+          <span>Claude Coworker</span><span>Microsoft 365</span><span>Outlook</span><span>SharePoint</span>
+          <span>Agent Skills</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
           <h3>Smart Bot Platform</h3>
         </div>
         <p class="project-description">
@@ -257,40 +293,6 @@
         </p>
         <div class="project-tags">
           <span>FastAPI</span><span>Vanilla JS</span><span>Ollama</span><span>Azure Cognitive Services</span>
-        </div>
-      </article>
-
-      <article class="project-card featured">
-        <div class="project-header">
-          <span class="project-label">Agentic AI</span>
-          <h3>LangGraph Research Agent</h3>
-        </div>
-      
-        <p class="project-description">
-          Built an agentic AI research workflow using LangGraph-style orchestration, Node.js, and SerpAPI. 
-          The system transforms user prompts into search-driven answers through a multi-step graph pipeline 
-          involving web search, summarization, and final response generation using LLMs.
-        </p>
-      
-        <div class="project-tags">
-          <span>LangGraph</span>
-          <span>Agentic AI</span>
-          <span>Node.js</span>
-          <span>SerpAPI</span>
-          <span>LLMs</span>
-          <span>Workflow Orchestration</span>
-        </div>
-      
-        <div style="margin-top: 18px;">
-          <a 
-            href="https://github.com/arav2705/LangGraph_SERP_API_Chat" 
-            target="_blank" 
-            rel="noopener"
-            class="btn btn-secondary"
-            style="padding: 10px 18px; font-size: 0.85rem;"
-          >
-            View Project →
-          </a>
         </div>
       </article>
 
