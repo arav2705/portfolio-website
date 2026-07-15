@@ -1,6 +1,6 @@
 # Aravind Vijayaraghavan — Portfolio
 
-Personal portfolio site built with plain **HTML, CSS and JavaScript** — no build step, no framework, no backend. Deploys in 60 seconds to any static host (Vercel / Netlify / Cloudflare Pages / GitHub Pages).
+Personal portfolio
 
 ## File structure
 
